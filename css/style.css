@@ -1,0 +1,431 @@
+.table, .table th, .table td {
+	border-spacing: 0px 0px;
+	border-collapse: collapse;
+    border: 1px solid black;
+
+}
+
+
+.spravTable, .spravTable th, .spravTable td {
+    border-spacing: 0px 0px;
+    border-collapse: collapse;
+    border: 1px solid black;
+
+}
+
+
+
+.skladTable, .skladTable th, .skladTable td {
+    border-spacing: 0px 0px;
+    border-collapse: collapse;
+    border: 1px solid black;
+
+
+
+}
+
+
+
+.spravTable {
+
+    margin-left: 57%;
+    margin-top: 4%;
+    width: 600px;
+
+
+}
+
+
+
+
+
+
+
+.skladTable {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+
+
+
+
+.ui-datepicker {
+    margin-left: 200px;
+    z-index: 1000;
+}
+
+
+
+.left {
+    float: left;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+
+td {
+    height:15px;
+}
+
+.mid {
+    width: 50%;
+}
+.content {
+    width: 80%;
+    height: 1000px;
+    position: relative;
+    overflow-y: hidden;
+
+
+}
+
+
+.contentm {
+    width: 80%;
+    position: relative;
+    overflow-y: hidden;
+
+
+}
+
+
+
+.col1, .col2 {
+    float: left;
+    width: 50%;
+
+}
+.spravTable, .spravTable th, .spravTable td {
+    border: 1px solid black;
+}
+.colEdit a, .colDel a {
+    cursor: pointer;
+}
+.colEdit a:hover {
+    color: green;
+}
+.colDel a:hover {
+    color: red;
+}
+a.btn {
+    cursor: pointer;
+}
+a.btn:hover {
+    border-bottom: 1px dotted;
+}
+.hidden {
+    display: none;
+}
+.okButton {
+    float: right;
+    background-color: #d2d2d2;
+}
+h1 {
+    border-bottom: 1px solid red;
+}
+.dark {
+    position: absolute;
+    z-index: 1000;
+    background-color: black;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    display: none;
+    opacity: 0;
+}
+
+
+.apply {
+    text-align: right;
+    color: #18991a;
+}
+
+.ui-datepicker-month {
+    background: none !important;
+    border: none !important;
+    width: 4em !important;
+    margin-right: 3px !important;
+    letter-spacing: 1px !important;
+    /*-moz-appearance: none !important;*/
+    /*-webkit-appearance: none !important;*/
+    /*appearance: none !important;*/
+}
+.ui-datepicker {
+    border: 1px solid #bbbdb5 !important;
+
+}
+.delCol {
+    cursor: pointer;
+}
+.delCol:hover {
+    color: red;
+}
+.ui-datepicker:hover {
+    -webkit-box-shadow: 0 1px 30px /*{global-box-shadow-size}*/ 		rgba(0,0,0,1) /*{global-box-shadow-color}*/ ;
+    -moz-box-shadow: 0 1px 30px /*{global-box-shadow-size}*/ 		rgba(0,0,0,1) /*{global-box-shadow-color}*/ ;
+    box-shadow: 0 1px 30px /*{global-box-shadow-size}*/ 				rgba(0,0,0,1) /*{global-box-shadow-color}*/ ;
+}
+.ui-datepicker-calendar tr td:hover:not(.ui-datepicker-other-month) {
+    background-color: #edfffd !important;
+}
+
+
+#tel {
+    position: absolute;
+    z-index: -1;
+    float: left;
+    top: 0px;
+}
+
+.moveb {
+    position: relative;
+    float: left;
+    height: 1000px;
+    overflow: visible;
+
+}
+
+
+.col1s {
+    margin-left: 150px;
+    margin-top: 110px;
+}
+
+
+
+.img1 {
+    width: 360px;
+    float: left;
+    margin-left: 64px;
+}
+
+
+
+.img2 {
+    width: 360px;
+    float: left;
+    margin-left: 88px;
+}
+
+
+.img3 {
+    width: 320px;
+    float: left;
+    margin-left: 80px;
+}
+
+.menu {
+    float: left;
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 9%;
+    overflow: hidden;
+}
+
+
+.names {
+
+    float: left;
+    margin-left: 220px;
+    margin-top: 20px;
+    font-family: calibri;
+    font-size: 22pt;
+    color: #710fff;
+
+}
+
+.names3 {
+
+    float: left;
+    margin-left: 170px;
+    margin-top: 20px;
+    font-family: calibri;
+    font-size: 22pt;
+    color: #710fff;
+
+}
+
+.img {
+    width: 360px;
+    float: left;
+}
+
+
+.title {
+    font-size: 40pt;
+    font-family: calibri;
+    color: #651499;
+    margin-left: 35%;
+    display: block;
+    float: left;
+}
+
+
+
+.titlesk {
+    font-size: 40pt;
+    font-family: calibri;
+    color: #651499;
+    margin-left: 45%;
+}
+
+
+
+.bear {
+    position: absolute;
+    width: 220px;
+    left: -150%;
+
+}
+
+
+.sbody {
+    background-image: url("../images/37771.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #feeab5;
+    overflow: hidden;
+}
+
+
+.skl {
+    float: left;
+    overflow: auto;
+    width: 100%;
+    height: 500px;
+    scrollbar-3dlight-color: #ffebcd;
+}
+
+
+.home {
+    position: absolute;
+    width: 50px;
+    left: 24%;
+}
+
+
+
+
+.home1 {
+    position: absolute;
+    width: 50px;
+    left: 21%;
+    top: 10%;
+
+}
+
+
+
+.bsp {
+
+
+    background-image: url("../images/sprav1.png");
+    background-size: 60%;
+    background-position: top;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.addButton {
+    margin-left: 90%;
+}
+
+
+.titlesp {
+    display: block;
+    font-size: 40pt;
+    font-family: calibri;
+    color: #651499;
+    margin-left: 39%;
+    margin-top: 10%;
+}
+
+
+.report {
+    position: absolute;
+    right: 60%;
+    top: 15%;
+    left: 28%;
+    width: 600px;
+    font-family: calibri;
+    font-size: 18pt;
+
+}
+
+
+.view {
+    display: block;
+    position: relative;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+    padding-right: 12%;
+    width: 140px;
+    font-family: calibri;
+    font-size: 14pt;
+
+
+}
+
+.view:hover {
+
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+
+.ndog {
+
+}
+
+.bodym {
+
+    overflow: hidden;
+
+}
+
+
+.edit {
+    position: absolute;
+    left: 0%;
+    background-color: #ffffff;
+    width: 100%;
+    display: none;
+    padding-top: 5%;
+}
+
+
+.editTable {
+
+    margin: 0 auto;
+
+}
+
+
+#title5 {
+
+    text-align: center;
+
+}
+
+.MoveTable, .MoveTable th, .MoveTable td {
+
+    border-spacing: 0px 0px;
+    border-collapse: collapse;
+    border: 1px solid black;
+
+}
+
+
+.repp {
+    margin-top: 2%;
+}
+
+
